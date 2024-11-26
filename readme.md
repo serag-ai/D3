@@ -1,4 +1,7 @@
-# 🧬 D3: A Compact Model for Drug-Drug Interaction Prediction
+# 🧬 D3: A Small Language Model for Drug-Drug Interaction Prediction
+
+🚧 **Under Development** 🚧  
+This repository is a work in progress and is not yet complete. Features and documentation are subject to change.
 
 Welcome to the **D3 Project** repository! 🚀 In this study, we developed **D3**, a Small Language Model (SLM) designed to predict **Drug-Drug Interactions (DDI)**. While larger models often hog the spotlight, our focus here is to strike a balance between **high performance** and **resource efficiency** — and to show that **smaller can be just as mighty**. 💪✨
 
