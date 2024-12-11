@@ -9,7 +9,7 @@ Welcome to the **D3 Project** repository! 🚀 In this study, we developed **D3*
 
 **DDI prediction** plays a critical role in healthcare 🏥, especially as drug combinations become more common in treatment plans. Traditional methods for identifying DDIs can be **labor-intensive** and **error-prone**. To solve this, we pre-trained **D3**, a nimble small language model, using data compiled from **DrugBank** and compared it against state-of-the-art, fine-tuned **Large Language Models (LLMs)**, including:
 
-- **Phi 1.5** 🔵
+- **Qwen 2.5** 🔵
 - **Gemma 2B** 💎
 - **Mistral V0.2** 🌪️
 - **LLaMA 3** 🦙✨
