@@ -5,7 +5,7 @@
 
 ## Overview
 
-**D3** is a compact Small Language Model (SLM) (~70M parameters) developed specifically for **Drug-Drug Interaction (DDI)** prediction. Despite its small size, D3 achieves performance on par with leading Large Language Models (LLMs) such as LLaMA 3.1 (70B), Mistral v0.3, Gemma 2B, and Qwen 2.5B—while being 1000× smaller and significantly more resource-efficient.
+D3 is a specialized Small Language Model (SLM) (~70M parameters) designed for accurate and efficient Drug-Drug Interaction (DDI) prediction. Despite its minimal size, D3 achieves competitive performance against leading LLMs while being 1,000× smaller and requiring significantly fewer resources.
 
 ---
 
@@ -13,16 +13,16 @@
 
 | Model          | Parameters | Hugging Face Link |
 |----------------|------------|-------------------|
-| D3             | 70M        | [🔗 View on HF](https://huggingface.co/your-username/D3) |
-| Qwen 2.5 (FT)  | 1.5B       | [🔗 View on HF](https://huggingface.co/your-username/Qwen2.5-DDI) |
-| Gemma 2B (FT)  | 2B         | [🔗 View on HF](https://huggingface.co/your-username/Gemma2-DDI) |
-| Mistral v0.3 (FT) | 7B     | [🔗 View on HF](https://huggingface.co/your-username/Mistral-DDI) |
-| LLaMA 3.1 (FT) | 70B        | [🔗 View on HF](https://huggingface.co/your-username/LLaMA3.1-DDI) |
+| D3             | 70M        | [🔗 View on HF](https://huggingface.co/serag-ai/D3) |
+| Qwen 2.5 (FT)  | 1.5B       | [🔗 View on HF](https://huggingface.co/serag-ai/Finetuned-DDI-Qwen) |
+| Gemma 2B (FT)  | 2B         | [🔗 View on HF](https://huggingface.co/serag-ai/Finetuned-DDI-Gemma) |
+| Mistral v0.3 (FT) | 7B     | [🔗 View on HF](https://huggingface.co/serag-ai/Finetuned-DDI-Mistral) |
+| LLaMA 3.1 (FT) | 70B        | ⚠️ *Model not uploaded due to size constraints* |
 
 > ℹ️ All models above were fine-tuned using the same dataset and parameter-efficient LoRA strategy.
 
 ---
 
-## 💚 Acknowledgement
+## ⭐ Acknowledgement
 We appreciate open source projects including: 
 [Sebastian Raschka](https://github.com/rasbt), [UnSloth](https://github.com/unslothai/unsloth)
