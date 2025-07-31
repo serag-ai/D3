@@ -9,7 +9,7 @@ D3 is a specialized Small Language Model (SLM) (~70M parameters) designed for ac
 
 ---
 
-## 🧠 Model Checkpoints on Hugging Face
+## 🧠 Model on Hugging Face
 
 | Model          | Parameters | Hugging Face Link |
 |----------------|------------|-------------------|
