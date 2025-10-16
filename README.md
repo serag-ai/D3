@@ -7,6 +7,12 @@
 
 D3 is a specialized Small Language Model (SLM) (~70M parameters) designed for accurate and efficient Drug-Drug Interaction (DDI) prediction. Despite its minimal size, D3 achieves competitive performance against leading LLMs while being 1,000× smaller and requiring significantly fewer resources.
 
+This repository contains the code and models introduced in our paper:  
+> **"D3: A Small Language Model for Drug-Drug Interaction prediction and comparison with Large Language Models"**  
+> *Ahmed Ibrahim, Abdullah Hosseini, Salma Ibrahim, Aamenah Sattar, and Ahmed Serag. Machine Learning with Applications (2025)*
+> *[Downlad Paper](https://www.sciencedirect.com/science/article/pii/S2666827025000416)*
+
+
 ---
 
 ## 🧠 Models on Hugging Face
