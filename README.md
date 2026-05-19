@@ -36,24 +36,6 @@ This repository contains the code and training/inference notebooks introduced in
 - **`src/llm_finetuning.ipynb`** — LoRA fine-tuning of the comparison LLMs (Qwen 2.5, Gemma 2, Mistral, LLaMA 3.1).
 - **`assets/`** — Repository media (banner, figures).
 
-The trained D3 checkpoint (`model_and_optimizer.pth`, ~1 GB) is not committed to Git; it is hosted on Hugging Face at [serag-ai/D3](https://huggingface.co/serag-ai/D3). Download it locally before running inference.
-
-## Model Architecture
-
-D3 is a GPT-style decoder-only transformer. The default configuration:
-
-| Hyperparameter | Value |
-|----------------|-------|
-| Parameters | ~70M |
-| Vocabulary size | 50,257 (GPT-2 / `tiktoken` BPE) |
-| Context length | 256 tokens |
-| Embedding dimension | 512 |
-| Attention heads | 8 |
-| Transformer layers | 6 |
-| Dropout | 0.1 |
-
-The training pipeline first pretrains the language model on a general text corpus (`Haxirus/rasbt_pretraining_data` on Hugging Face), then fine-tunes it for DDI severity classification.
-
 ## Installation
 
 ```bash
